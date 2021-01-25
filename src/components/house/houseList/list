@@ -1,0 +1,48 @@
+<List>
+        {houseList.map((house, index) => (
+          <ListItem
+            key={house._id}
+            className={clsx(
+              { [classes.houseListItem]: true },
+              { [classes.clickedHouse]: selectedHouseId === house._id }
+            )}
+          >
+            <Box
+              onClick={() => clickedHouse(house, index)}
+              className={classes.clickSection}
+            >
+              <img
+                className={classes.houseListImage}
+                alt="complex"
+                src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1573&q=80"
+              />
+              <Box>
+                <Typography className={classes.houseName}>
+                  {_.truncate(house.name)}
+                </Typography>
+                <Box display="flex" alignItems="center">
+                  <ReactCountryFlag
+                    countryCode={house.countryCode}
+                    className={classes.countryFlag}
+                    svg
+                    cdnUrl="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/1x1/"
+                  />
+                  <Box>
+                    <Typography className={classes.houseAddress}>
+                      {_.truncate(house.address)}
+                    </Typography>
+                    <Typography className={classes.houseAddress}>
+                      {_.truncate(house.city)}, {_.truncate(house.state)}.{' '}
+                      {_.truncate(house.countryCode)}
+                    </Typography>
+                  </Box>
+                </Box>
+                <Typography className={classes.houseState}>
+                  {/* {convertHousePurpose(house.purpose)} */}
+                  {primary}
+                </Typography>
+              </Box>
+            </Box>
+          </ListItem>
+        ))}
+      </List>

@@ -1,0 +1,98 @@
+.root {
+  padding-top: 10px;
+  background-color: #f7f7f7;
+}
+.cardTitle {
+  padding: 15px;
+  font-size: 24px !important;
+}
+.tableTitle {
+  font-size: 12px !important;
+  color: #5f5f5f !important;
+  padding: 5px 10px !important;
+  border-right: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+.tableCell {
+  padding: 8px 16px !important;
+  border-right: 1px solid #e0e0e0;
+}
+.properties {
+  width: 290px;
+  margin: 20px auto 20px 20px;
+}
+.propertiesTotal {
+  padding: 0 15px;
+}
+.propertiesTotalHouse {
+  font-weight: 500 !important;
+  font-size: 48px !important;
+  margin-top: -15px !important;
+}
+.propertiesApplication {
+  font-size: 13px !important;
+  padding-left: 8px !important;
+  color: grey;
+  margin-top: 21px !important;
+}
+.propertiesTotalMortgage {
+  font-size: 12px !important;
+  color: grey;
+}
+.propertiesTableContainer {
+  max-height: 250px !important;
+}
+.propertiesProperties {
+  display: flex;
+  align-items: center;
+}
+.propertiesHouseName {
+  padding-left: 8px;
+}
+.propertiesViewAll {
+  font-size: 14px !important;
+  padding: 25px 15px !important;
+  color: #2196f3;
+}
+.documents {
+  width: 300px;
+  margin: 20px auto 20px 20px;
+}
+.documentTableContainer {
+  height: 350px !important;
+}
+.documentFilterSection {
+  padding: 10px 10px 10px 0;
+}
+.seletedItems {
+  font-size: 12px !important;
+  color: grey;
+}
+.incomeExpenditure {
+  width: 600px;
+  margin: 20px auto 20px 20px;
+}
+.incomeExpenditureTableContainer {
+  height: 470px !important;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+/* .Toastify__toast-container {
+  width: 423px;
+  height: 56px;
+} */
+/* .Toastify__toast--default {
+  background: #000000;
+  color: #ffffff;
+  padding: 5px;
+  min-height: 56px;
+}
+.Toastify__toast-body {
+  margin: auto 0;
+  border-left: 4px solid #95cc66;
+  height: 50px;
+  align-items: center;
+  display: flex;
+} */

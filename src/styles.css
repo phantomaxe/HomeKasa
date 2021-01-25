@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1em;
+  background-color: white;
+  font: arial;
+}
+
+.MuiDropzoneArea-root {
+  border: none !important;
+  min-height: auto !important;
+}
+.MuiDropzoneArea-root:focus {
+  outline: none;
+}
+.MuiDropzoneArea-text {
+  margin: 0 !important;
+}
+.MuiDropzoneArea-icon {
+  display: none !important;
+}
+.MuiDialogContent-root span.MuiTypography-root {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+.MuiDropzonePreviewList-root.MuiGrid-spacing-xs-8 {
+  width: 100% !important;
+}
